@@ -18,7 +18,8 @@ namespace UsuariosApi.Services
             Claim[] direitosUsuario = new Claim[]
             {
                 new Claim("username", usuario.UserName),
-                new Claim("id", usuario.Id.ToString())
+                new Claim("id", usuario.Id.ToString()),
+                new Claim("email", usuario.Email)
             };
 
             var chave = new SymmetricSecurityKey(
