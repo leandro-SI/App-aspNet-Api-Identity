@@ -1,0 +1,25 @@
+﻿Filme:
+{
+    "titulo": "eu eu",
+    "diretor": "Chaves",
+    "gereno": "Comédia",
+    "duracao": 120 
+}
+
+Endereco:
+{
+  "logradouro": "Rua Castro Alves",
+  "bairro": "Cidade da Barra",
+  "numero": "8",
+  "complemento": ""
+}
+
+Cinema:
+{
+    "nome": "Boulevar",
+    "enderecoId": 1,
+    "gerenteId": 1
+}
+
+
+
