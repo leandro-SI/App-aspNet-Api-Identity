@@ -27,7 +27,7 @@ namespace UsuariosApi.Controllers
         {
             Result resultado = _cadastroService.CadastrarUsuario(createDto);
 
-            return Ok();
+            return Ok(resultado.Successes);
         }
 
     }
